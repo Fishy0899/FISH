@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Open Sans",serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Title{
+
+  padding-left: 50px;
+}
+
+.wrapper{
+  background:url('./Asset/bg1.jpg');
+  height:200vh;
+  display:top;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main{
+height: 90vh;
+width: 90%;
+margin: 0 auto;
+
+}
+
+
+
+
+.form-container{
+  background-color: #196650b7;
+  height: 28vh;
+  width: 40vh;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0px 50px;
+  
+  
+  }
+
+input[type="text"]{
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #fff;
+  width: 100%;
+  display: block;
+  padding-bottom: 4px ;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing:2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+
+}
+
+
+
+
+
+
+input[type="text"]{
+  outline: none;
+}
+
+button{
+  
+  border-top-color: 1px, #fff;
+  padding:5px 100px;
+  margin:6 150px;
+  border-radius: 500px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #000;
+  color:#fff;
+  font-weight: 100;
+  
+}
+
+button:active{
+  outline:none;
+}
+
+.borderr{
+  padding-left:50px;
+  display: inline-flex;
+  padding:center;
+ 
+}
+
+
+
+.bd1{
+  padding-left: 20px;
+  margin: 30px;
+  width: 500px;
+  
+}
+
+.info{
+  padding-left : 10px;
+  padding-right : 10px;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  border: solid #aa763a;
+  background-color: rgba(0, 0, 0, 0.308);
+ 
+}
+
+.info_key{
+  color:#fff;
+  border-bottom: solid 2px rgba(255,255,255,0.06);
+  font-weight:400;
+  padding-left: 15px;
+}
+
+.info_key:last-child{
+  border: 0;
+}
+
+.info_value{
+  color: #fff;
+  font-weight: 200;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
